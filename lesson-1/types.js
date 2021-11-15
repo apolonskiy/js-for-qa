@@ -36,21 +36,21 @@ console.log(nothing)
 
 // Undefined means the variable has been declared, but it has not yet been assigned a value
 let emptiness;
-console.log(emptiness) // Undifined
+console.log(emptiness) 
 
 // typeof 
-typeof undefined; // undefined
+typeof undefined;
 
-typeof 0; // number
+typeof 0; 
 
-typeof true; // boolean
+typeof true; 
 
-typeof 'str'; // string
+typeof 'str'; 
 
-typeof Math; // object
+typeof Math; 
 
-typeof []; // object
+typeof []; 
 
-typeof null; // object
+typeof null; 
 
-typeof console.log; //function
+typeof console.log; 
