@@ -16,8 +16,8 @@ let doubleQuotesStr = "Double quote's String";
 
 // Allows include some statement inside your string call like a tamplate string
 let qa = "QA";
-let name = 'Karl';
-let phrase = `can add ${name + qa}`;
+let name = 'Karl ';
+let phrase = `can add ${name + qa + ' newStr'}`;
 let oldPhrase = 'Hello, '+ name +' nice to meet you';
 let phraseParagraph = `can add ${name + qa}, 
 and add Paragraph`;
@@ -27,7 +27,7 @@ console.log(oldPhrase);
 console.log(phraseParagraph);
 
 // Bolleans
-let truth = true;
+let truth = typeof 1 === 'number';
 let lie = false;
 
 // Null (empty box)

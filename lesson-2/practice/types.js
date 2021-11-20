@@ -28,8 +28,8 @@ console.log(Boolean(''));
 console.log(Boolean('0'));
 
 console.log(null >= 0);
-console.log(null == 0);
-console.log(Boolean(null) == 0);
+console.log(null == 1);
+console.log(Boolean(null) === 0);
 
 console.log(undefined >= 0);
 console.log(undefined > 0);

@@ -1,5 +1,7 @@
 // Declaring
-let message;
+let message; 
+var message; 
+const message = 'test';
 
 // Delayed declaring;
 let message2;

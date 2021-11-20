@@ -97,14 +97,78 @@
 // console.log(d);
 // console.log(c)
 
-let role = 123;
-switch (role) {
-    case '123':
-    case 'doctor':
-    case 'visitor':
-        console.log('Login DOC_ADM_GE user');
-        break;
-    case 'QA':
-        console.log('Login Admin user');
-        break;
+
+// import * as fs from 'fs';
+// import { homedir } from 'os';
+// import * as path from 'path'
+
+// console.log(fs.existsSync(path.join(homedir(), '/Downloads', 'hack.php')))
+
+// console.log((fs.readFileSync(path.join(homedir(), '/Downloads', 'hack.php'))).toString())
+
+
+/*
+THIS IS PART FOR LOOPS
+*/
+
+// let i = 0;
+// do {
+//     console.log(i);
+//     i++;
+// } while (i < 0);
+
+// i = 0;
+// while (i < 1) {  // (condition)
+//     console.log(i);
+//     i++;
+//     // do not forget increment variable
+// }
+
+const arr = [3, 4, [10,20,30]]
+console.log(arr[2][2]);
+
+// for(let i = 0; i < 3; i++){
+//     // console.log(i)
+//     // // console.log(Math.random(), i)
+//     // // randomNumbers += Math.floor(Math.random() * i)
+
+//     for (let j = 0; j < 3; j++) {
+//         if(i > 1){
+//             console.log(arr[i][j]);
+//         } else {
+//             console.log(arr[i]);
+//         }
+//     }
+// }
+
+// console.log(Boolean(NaN));
+
+
+// const str = 'asd';
+// if ( Number(str) ){
+//     console.log(str)
+// }
+
+
+// let counter = 0;
+// let scrollResult = scrollToEl('elemntName');
+// while(!scrollResult  && counter < 5) {
+//     console.log(true)
+//     scrollResult = scrollToEl('elemntName');
+//     counter ++;
+// }
+
+const a = '';
+
+if(a) {
+    console.log(a)
+} else {
+    console.log('HERE')
+}
+
+const str = 'this is my name';
+console.log(str[7])
+
+for( const sub of str){
+    console.log(sub)
 }

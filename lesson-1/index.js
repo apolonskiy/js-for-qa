@@ -80,13 +80,44 @@
 
 
 // Allows include some statement inside your string call like a tamplate string
-let qa = "QA";
-let name = 'Karl ';
-let phrase = `can add ${name + qa + ' newStr'}`;
-let oldPhrase = 'Hello, '+ name +' nice to meet you';
-let phraseParagraph = `can add ${name + qa}, 
-and add Paragraph`;
+// let qa = "QA";
+// let name1 = 'Karl';
+// let phrase = `can add ${name1 + qa + 'newStr'}`;
+// let oldPhrase = 'Hello, '+ name1 +' nice to meet you and add Paragraphand add Paragraphand'
+// let phraseParagraph = `can add ${name1 + qa}, 
+// and add Paragraphand
 
-console.log(phrase);
-console.log(oldPhrase);
-console.log(phraseParagraph);
+// and add Paragraph`;
+
+// console.log(phrase);
+// console.log(oldPhrase);
+// console.log(phraseParagraph);
+
+// const truth = typeof 1 === 'string'
+// console.log(truth)
+
+// typeof 
+console.log(typeof undefined)
+
+console.log(typeof 0.5)
+
+typeof 'true'; 
+
+typeof 'str'; 
+
+console.log(typeof Math)
+
+console.log( String(23) )
+
+console.log( typeof Number)
+
+console.log(typeof process.env)
+
+console.log(typeof ['2','3','a'])
+
+console.log(Array(3, 2,3,4))
+
+console.log(typeof null)
+// console.log(null)
+
+typeof console.log; 

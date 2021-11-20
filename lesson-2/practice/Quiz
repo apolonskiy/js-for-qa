@@ -1,5 +1,5 @@
 // QUIZ!
-console.log(5 > 4);
+console.log(5 > 4); //ture
 console.log("apple" > "pineapple");
 console.log('2' > '12');
 console.log(undefined == null);
@@ -22,6 +22,7 @@ d- true
 2- What is the value of x? 
 let x = 5; 
 x += 3; 
+x = 3
 
 a- 3
 

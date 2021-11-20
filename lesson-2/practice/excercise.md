@@ -1,4 +1,4 @@
-1) Rewrite if with ?
+1) Rewrite if with ternary operator "?"
 
 let result;
 if (a + b < 10) {
@@ -8,7 +8,7 @@ if (a + b < 10) {
 }
 
 2) Write an if condition to verify that the age variable is between 18 and 90 inclusive.
-Inclusive means that the value of age can be either 18 or 90.
+Inclusive means that the value of age CAN be either 18 or 90.
 
 3) I recommend you to run code in browser console, since it allows easy usage of user input parsing with prompt method.
 
@@ -22,7 +22,7 @@ console.log()
 - accept user name
 - welcome user with his username
 - ask his birthday year
-- calculate how old is user, and print (or alert) his calculated age
+- calculate how old is user, and print (or alert) his calculated age (advanced task to count current year programatically and not use current year as const year = 2021);
 
 Example:
 -> Please, enter your first name
