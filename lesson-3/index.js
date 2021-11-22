@@ -219,3 +219,10 @@
 
 
 //--------------------------------\\
+
+
+// const maxNumber = (a, b) => a>b ? a : b
+// console.log(maxNumber(1,2));
+
+const maxNumber = (a,b) => a>b ? a : b
+console.log(maxNumber(5,1));
