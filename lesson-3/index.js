@@ -218,27 +218,4 @@
 // console.log(obj1.testFiled1['testField2'])
 
 
-
-// function showStars(rows) {
-//     let stars = '';
-//     for (let row = 1; row <= rows; row++ ){
-//       for(let char = 0; char < row; char ++ ){
-//         stars += '*'
-//       }
-//       stars += ' ';
-//     }
-//     return stars
-// }
-
-// console.log(showStars(4))
-
-
-
 //--------------------------------\\
-
-
-// const maxNumber = (a, b) => a>b ? a : b
-// console.log(maxNumber(1,2));
-
-const maxNumber = (a,b) => a>b ? a : b
-console.log(maxNumber(5,1));
