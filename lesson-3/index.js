@@ -226,3 +226,13 @@
 
 const maxNumber = (a,b) => a>b ? a : b
 console.log(maxNumber(5,1));
+
+function recursion (num) {
+    if(num < 2){
+        return 1;
+    }
+
+    return num + recursion(num - 1);
+}
+
+recursion(5);
