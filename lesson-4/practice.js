@@ -68,3 +68,31 @@ let movies = [
 // Sort them by their rating in descending order
 // Pick their title 'a', 'b' ...
 // So, the result should be ["a", "c"] 
+
+// EX5
+const arr = [1,2,3,4,1,4,5,21234,214,23,45,12,11,1,4,0,3,2,11,1];
+// count number of 1 in array, using only
+// 5.1 ONLY indexOf() method (also can use loop)
+//5.2 filter() and Length
+// 5.3 map() and length.
+//5.4 NEW RULE: find out if there is 0 in this array using includes()
+
+// EX6
+let users = [
+    { id: 1, name: "John", age: 43 }, // same age
+    { id: 2, name: "Pete", age: 43 },
+    { id: 3, name: "Mary", age: 37 }
+];
+// Find out if users array has user with age 37 in it using
+// 6.1 using find()
+// 6.2 using map() and length
+// 6.3 using filter and length
+// 6.4 using some()
+
+// ex7
+const arrStr = ['one, two, trhee', 'four, five', 'seven, six'];
+//  write a function which will return new array with all numbers (srings) as separate elements of atta
+// expected ['one', 'two',...]
+// next, create second function, pass there result of function above and create ONE STRING, 
+// comma-separated with all the elements of array in it.
+
