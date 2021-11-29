@@ -10,11 +10,12 @@
       // you can set any your custom properties
       this.legs = 2;
       this.hands = 2;
-      this.head = 1;
       this.name = name;
       this.favoriteFood = favoriteFood;
       this.hoursOfSleep = hoursOfSleep;
     }
+
+    head = 1;
     walk() {
       this.someVariable = 'value'; // undefined
       console.log(`${this.name} is walking`);
