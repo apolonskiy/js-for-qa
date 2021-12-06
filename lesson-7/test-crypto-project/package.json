@@ -4,7 +4,10 @@
   "description": "The goal of this project is to get the latest BTC cource",
   "main": "index.js",
   "scripts": {
-    "start": "node crypto.js"
+    "start": "node crypto.js",
+    "start:example": "node example.js",
+    "start:dev": "nodemon crypto.js",
+    "test": "jest"
   },
   "author": "Mykola Solopii <solopiy@i.ua>",
   "license": "ISC",
@@ -12,5 +15,8 @@
     "axios": "^0.21.0",
     "express": "^4.16.1",
     "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
   }
 }

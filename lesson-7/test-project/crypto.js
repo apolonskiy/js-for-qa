@@ -1,6 +1,6 @@
 // Modules imports
-const axios = require("axios");
-const express = require("express");
+import axios from "axios";
+import express from "express";
 // Creating new server application
 const app = express();
 // Variable with port to use

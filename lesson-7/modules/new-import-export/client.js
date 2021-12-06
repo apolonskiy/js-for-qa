@@ -5,5 +5,8 @@ const marvel = (hero) => {
 const dc = (hero) => {
   console.log(`Bye, ${hero}!`);
 }
+const testPhrase = 'Hey, I exist';
+
+export default testPhrase;
   
 export {marvel, dc};
