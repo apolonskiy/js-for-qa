@@ -1,0 +1,19 @@
+{
+  "name": "testcafe-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cypress run  -b chrome --headed",
+    "test:open": "cypress open -b chrome"
+  },
+  "author": "Andrii",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "4.1.0"
+  },
+  "devDependencies": {
+    "cypress": "^9.1.1"
+  }
+}

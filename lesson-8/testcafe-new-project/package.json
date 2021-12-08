@@ -1,0 +1,16 @@
+{
+  "name": "testcafe-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "testcafe firefox:headless ./src/tests/*.js -q"
+  },
+  "author": "Andrii",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "1.16.0",
+    "faker": "4.1.0"
+  }
+}

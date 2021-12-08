@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://devexpress.github.io/testcafe/example/",
+    "retries" : { "runMode": 1, "openMode": 0 },
+    "watchForFileChanges": false,
+    "scrollBehavior": "center",
+    "pluginsFile": false
+}

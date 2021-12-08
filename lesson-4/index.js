@@ -137,3 +137,16 @@ Each value should have different array index
 // const arrNew = movies.filter((movie) => movie.year === 2019 && movie.rating > 4);
 // console.log(arrNew)
 // console.log(movies)
+
+
+// Ex.5
+function gooseFilter (birds) {
+    const geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+    for (const item of birds) {
+        if(geese.includes(item)){
+            birds.splice(birds.indexOf(item),1);
+        }
+    }
+    return birds;  
+};
+console.log(gooseFilter(["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]))
